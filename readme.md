@@ -23,6 +23,7 @@ model.add(LSTM(60))
 model.add(Dense(30, activation="relu"))
 model.add(Dense(10, activation="relu"))
 model.add(Dense(1))
+```
 
 **Evaluai Model:**
 - MAE : 0.500
@@ -38,6 +39,7 @@ model = Sequential()
 model.add(Dense(64, input_shape=(N_PAST, N_FEATURES)))
 model.add(Dense(32, activation='relu'))
 model.add(Dense(N_FEATURES))
+```
 
 ## 🚀 Cara Menjalankan
 
